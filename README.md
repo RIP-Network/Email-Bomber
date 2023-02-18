@@ -30,3 +30,5 @@ pkg install git
 cd Email-Bomber 
 
 python email.py
+
+# Version 1.0
