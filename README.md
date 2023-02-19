@@ -6,7 +6,7 @@ Herramienta para spamear correos electrónicos creada con Python y SMTP, se nece
 
 # Instalacion
 
-     Linux
+Linux
 
 cd Email-Bomber
 
@@ -19,7 +19,7 @@ chmod +x install.sh
 python email.py
 
 
-     Termux
+Termux
 
 pkg install python 
 
@@ -31,7 +31,17 @@ cd Email-Bomber
 
 python email.py
 
+# Emails
+
 <p align="center"> <img width="400" height="300" src="https://github.com/RIP-Network/Email-Bomber/blob/main/img.jpg"> </p>
 
 
-# Version 1.0
+# Version
+
+Actualmente tiene la versión 1.5
+
+# Canal de YT
+
+https://youtube.com/@RIP-Network
+
+https://youtube.com/@RIPNetwork
