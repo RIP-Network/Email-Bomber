@@ -70,9 +70,7 @@ if server == '1' or server == 'gmail' or server == 'Gmail':
 	try:
 		server.login(user, pwd)
 	except smtplib.SMTPAuthenticationError:
-		print bcolors.FAIL + '''Your Username or Password is incorrect, please try again using the correct credentials
-		Or you need to enable less secure apps
-		On Gmail: https://myaccount.google.com/lesssecureapps ''' + bcolors.ENDC
+		print bcolors.FAIL + '''Tu contrasena es incorrecta vuelva a intentarlo ''' + bcolors.ENDC
 		sys.exit()
 	while no != nomes:
 		try:
@@ -95,9 +93,7 @@ elif server == '2' or server == 'Yahoo' or server == 'yahoo':
 	try:
 		server.login(user, pwd)
 	except smtplib.SMTPAuthenticationError:
-		print bcolors.FAIL + '''Your Username or Password is incorrect, please try again using the correct credentials
-		Or you need to enable less secure apps
-		On Yahoo: https://login.yahoo.com/account/security?.scrumb=Tiby8TXUvJt#less-secure-apps
+		print bcolors.FAIL + '''Tu contrasena es incorrecta vuelva a intentarlo
 		''' + bcolors.ENDC
 		sys.exit()
 	while no != nomes:
@@ -122,7 +118,7 @@ elif server == '3' or server == 'outlook' or server == 'Outlook' or server == 'H
 	try:
 		server.login(user, pwd)
 	except smtplib.SMTPAuthenticationError:
-		print bcolors.FAIL + 'Your Username or Password is incorrect, please try again using the correct credentials' + bcolors.ENDC
+		print bcolors.FAIL + 'Tu contrasena es incorrecta vuelva a intentarlo' + bcolors.ENDC
 		sys.exit()
 	while no != nomes:
 		try:
@@ -141,5 +137,5 @@ elif server == '3' or server == 'outlook' or server == 'Outlook' or server == 'H
 	server.close()
 	
 else:
-	print 'Works only with Gmail, Yahoo, Outlook and Hotmail.'
+	print 'Funcional en Outlook, Hotmail y Yahoo.'
 	sys.exit()
