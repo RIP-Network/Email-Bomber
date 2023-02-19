@@ -3,33 +3,36 @@ Herramienta para spamear correos electrónicos creada con Python y SMTP, se nece
 
 <p align="center"> <img width="400" height="300" src="https://github.com/RIP-Network/Email-Bomber/blob/main/foto.jpg"> </p>
 
-
 # Instalacion
 
 Linux
 
-cd Email-Bomber
+$ cd Email-Bomber
 
-chmod +x email.py
+$ chmod +x email.py
 
-chmod +x install.sh
+$ chmod +x install.sh
 
-./install.sh
+$ ./install.sh
 
-python email.py
+$ python email.py
 
 
 Termux
 
 pkg install python 
 
-pkg install python3 
+$ pkg install python3 
 
-pkg install git
+$ pkg install git
 
-cd Email-Bomber 
+$ cd Email-Bomber 
 
-python email.py
+$ python email.py
+
+# Terminal
+
+<p align="center"> <img width="400" height="300" src="hola"> </p>
 
 # Emails
 
