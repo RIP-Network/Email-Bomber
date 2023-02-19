@@ -10,7 +10,7 @@ Linux
 
 $ cd Email-Bomber
 
-$ chmod +x email.py
+$ chmod +x Bomb.py
 
 $ chmod +x install.sh
 
