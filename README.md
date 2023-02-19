@@ -42,7 +42,7 @@ $ python email.py
 
 # Version
 
-Actualmente tiene la versión 1.5
+Actualmente tiene la versión 2.0
 
 # Canal de YT
 
