@@ -16,7 +16,7 @@ $ chmod +x install.sh
 
 $ ./install.sh
 
-$ python email.py
+$ python Bomb.py
 
 
 Termux
@@ -29,7 +29,7 @@ $ pkg install git
 
 $ cd Email-Bomber 
 
-$ python email.py
+$ python Bomb.py
 
 # Terminal
 
