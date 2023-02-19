@@ -32,7 +32,7 @@ except IOError:
 
 time.sleep(1.0)
 print("\n")                                                                             
-c=input(amarillo+"Ingresar su cuenta de Gmail :" + cierre)
+c=input(amarillo+"Ingresar su cuenta de Outlook :" + cierre)
 time.sleep(1.0)
 p=getpass.getpass(amarillo+"Ingresar su Contraseña :" + cierre)
 time.sleep(1.0)
@@ -40,11 +40,10 @@ destinatario=input(amarillo+"Correo de la Victima:" + cierre)
 time.sleep(1.0)
 mensaje=input(azul+"Escriba el mensaje:" + cierre)
 
-while True:
-    context = ssl.create_default_context()
-
-    server = smtplib.SMTP("smtp-mail.outlook.com", 587)
-    server.login(c, p)
-    server.sendmail(c, destinatario, mensaje)
-    print(rojo+"Correo enviado"+cierre)
-
+server = smtplib.SMTP_SSL('smtp.mail.outlook.com', 587)
+server.login("c, p")
+server.sendmail(
+  "(testemail)", 
+  "(myemail)", 
+  "this message is from python")
+server.quit()
