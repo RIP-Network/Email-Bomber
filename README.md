@@ -31,7 +31,7 @@ cd Email-Bomber
 
 python email.py
 
-<p align="center"> <img width="400" height="300" src="enlace"> </p>
+<p align="center"> <img width="400" height="300" src="https://github.com/RIP-Network/Email-Bomber/blob/main/img.jpg"> </p>
 
 
 # Version 1.0
