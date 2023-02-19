@@ -33,7 +33,7 @@ $ python Bomb.py
 
 # Terminal
 
-<p align="center"> <img width="400" height="300" src="hola"> </p>
+<p align="center"> <img width="400" height="300" src="https://github.com/RIP-Network/Email-Bomber/blob/main/bomb.jpg"> </p>
 
 # Emails
 
