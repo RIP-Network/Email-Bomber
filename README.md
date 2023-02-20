@@ -18,7 +18,7 @@ $ chmod +x install.sh
 
 $ ./install.sh
 
-$ python Bomb.py
+$ python2 Bomb.py
 
 
 Termux
@@ -33,7 +33,7 @@ $ git clone https://github.com/RIP-Network/Email-Bomber
 
 $ cd Email-Bomber 
 
-$ python Bomb.py
+$ python2 Bomb.py
 
 # Terminal
 
