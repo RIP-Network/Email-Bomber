@@ -12,9 +12,7 @@ $ git clone https://github.com/RIP-Network/Email-Bomber
 
 $ cd Email-Bomber
 
-$ chmod +x Bomb.py
-
-$ chmod +x install.sh
+$ chmod +x * install.sh
 
 $ ./install.sh
 
@@ -32,6 +30,10 @@ $ pkg install git
 $ git clone https://github.com/RIP-Network/Email-Bomber
 
 $ cd Email-Bomber 
+
+$ chmod +x * install.sh
+
+$ ./install.sh
 
 $ python2 Bomb.py
 
