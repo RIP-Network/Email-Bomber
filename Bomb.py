@@ -39,7 +39,7 @@ try:
 except IOError:
 	print('Banner File not found')
 
-#Input
+
 print(bcolors.WARNING + '''
 Created by RIP-Network  Version 2.5
 1) Gmail
@@ -60,7 +60,7 @@ except KeyboardInterrupt:
 	print bcolors.FAIL + '\nCanceled' + bcolors.ENDC
 	sys.exit()
 
-#Gmail
+
 
 if server == '1' or server == 'gmail' or server == 'Gmail':
 	bomb()
@@ -85,7 +85,7 @@ if server == '1' or server == 'gmail' or server == 'Gmail':
 			print "Error "
 	server.close()
 	
-#Yahoo
+
 elif server == '2' or server == 'Yahoo' or server == 'yahoo':
 	server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
 	bomb()
@@ -109,7 +109,7 @@ elif server == '2' or server == 'Yahoo' or server == 'yahoo':
 			print "Error"
 	server.close()
 	
-#Hotmail/Outlook
+
 elif server == '3' or server == 'outlook' or server == 'Outlook' or server == 'Hotmail' or server == 'hotmail':
 	server = smtplib.SMTP("smtp-mail.outlook.com", 587)
 	bomb()
