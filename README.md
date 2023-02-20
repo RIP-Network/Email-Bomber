@@ -8,6 +8,8 @@ Esta herramienta necesita un correo electrónico personal para poder usarse para
 
 Linux
 
+$ git clone https://github.com/RIP-Network/Email-Bomber
+
 $ cd Email-Bomber
 
 $ chmod +x Bomb.py
@@ -21,11 +23,13 @@ $ python Bomb.py
 
 Termux
 
-pkg install python 
+$ pkg install python 
 
 $ pkg install python3 
 
 $ pkg install git
+
+$ git clone https://github.com/RIP-Network/Email-Bomber
 
 $ cd Email-Bomber 
 
