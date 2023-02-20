@@ -25,7 +25,7 @@ Termux
 
 $ pkg install python 
 
-$ pkg install python3 
+$ pkg install python2
 
 $ pkg install git
 
