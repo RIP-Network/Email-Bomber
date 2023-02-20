@@ -1,4 +1,4 @@
-#!/usr/bin
+#!/bin/bash
 
 red='\e[1;31m'
 default='\e[0m'
