@@ -42,7 +42,7 @@ except IOError:
 
 print(bcolors.WARNING + '''
 Created by RIP-Network  Version 2.5
-1) Gmail
+1) Gmail ( No funcional )
 2) Yahoo
 3) Hotmail/Outlook
 ''' + bcolors.ENDC + '--------------------------------------------------------------')
