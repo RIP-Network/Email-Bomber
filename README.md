@@ -35,6 +35,10 @@ $ cd Email-Bomber
 
 $ python2 Bomb.py
 
+# Como evitar que llegue a Spam
+
+Ovbiamente si mandamos mucha cantidad de mensajes es posible que Gmail lleve los mensajes para spam por eso para poder evitar que lleguen a spam tenemos que poner un sujeto y un mensaje algo largo para que lleguen bien.
+
 # Terminal
 
 <p align="center"> <img width="400" height="300" src="https://github.com/RIP-Network/Email-Bomber/blob/main/bomb.jpg"> </p>
@@ -46,7 +50,7 @@ $ python2 Bomb.py
 
 # Version
 
-Actualmente tiene la versión 2.0
+Actualmente tiene la versión 3.0
 
 # Canal de YT
 
