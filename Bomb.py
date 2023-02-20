@@ -41,7 +41,7 @@ except IOError:
 
 
 print(bcolors.WARNING + '''
-Created by RIP-Network  Version 2.5
+Created by RIP-Network  Version 3.0
 1) Gmail ( No funcional )
 2) Yahoo
 3) Hotmail/Outlook
@@ -70,12 +70,12 @@ if server == '1' or server == 'gmail' or server == 'Gmail':
 	try:
 		server.login(user, pwd)
 	except smtplib.SMTPAuthenticationError:
-		print bcolors.FAIL + '''Tu contrasena es incorrecta vuelva a intentarlo ''' + bcolors.ENDC
+		print bcolors.FAIL + '''Esta opcion no esta disponible por la politica de Gmail ''' + bcolors.ENDC
 		sys.exit()
 	while no != nomes:
 		try:
 			server.sendmail(user, to, message)
-			print bcolors.WARNING + 'Enviado ' + str(no+1) + ' emails' + bcolors.ENDC
+			print bcolors.WARNING + 'Enviado ' + str(no+1) + ' email' + bcolors.ENDC
 			no += 1
 			time.sleep(.8)
 		except KeyboardInterrupt:
@@ -99,7 +99,7 @@ elif server == '2' or server == 'Yahoo' or server == 'yahoo':
 	while no != nomes:
 		try:
 			server.sendmail(user, to, message)
-			print bcolors.WARNING + 'Enviado ' + str(no + 1) + ' emails' + bcolors.ENDC
+			print bcolors.WARNING + 'Enviado ' + str(no + 1) + ' email' + bcolors.ENDC
 			no += 1
 			time.sleep(.8)
 		except KeyboardInterrupt:
@@ -123,7 +123,7 @@ elif server == '3' or server == 'outlook' or server == 'Outlook' or server == 'H
 	while no != nomes:
 		try:
 			server.sendmail(user, to, message)
-			print bcolors.WARNING + 'Enviado ' + str(no + 1) + ' emails' + bcolors.ENDC
+			print bcolors.WARNING + 'Enviado ' + str(no + 1) + ' email' + bcolors.ENDC
 			no += 1
 			time.sleep(.8)
 		except KeyboardInterrupt:
