@@ -41,7 +41,10 @@ except IOError:
 
 
 print(bcolors.WARNING + '''
-Created by RIP-Network  Version 3.0
+Created by RIP-Network  Version 3.5
+
+YT : https://youtube.com/@RIP-Network
+IG : https://instagram.com/ripnetworkyt
 
 1) Gmail ( No funcional )
 2) Yahoo
